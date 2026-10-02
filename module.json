@@ -2,7 +2,7 @@
   "id": "house-divided-it",
   "title": "A House Divided - Traduzione italiana",
   "description": "<p>Traduzione italiana dell'avventura <em>A House Divided</em>. Non contiene l'avventura: traduce i testi al momento dell'importazione mantenendo identici tutti gli ID, quindi collegamenti, scene e automazioni del modulo originale continuano a funzionare. Richiede il modulo originale acquistato.</p>",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "MorningStar"
@@ -29,9 +29,9 @@
       }
     ]
   },
-  "manifest": "",
+  "manifest": "https://github.com/morningstar3010/house-divided-it/releases/download/latest/module.json",
   "url": "https://github.com/morningstar3010/house-divided-it/",
-  "download": "",
+  "download": "https://github.com/morningstar3010/house-divided-it/releases/download/latest/house-divided-it.zip",
   "esmodules": [
     "scripts/house-divided-it.mjs",
     "scripts/ui.mjs"

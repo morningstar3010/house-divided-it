@@ -4,26 +4,33 @@
  * registro dell'Approvazione, percezione passiva). Qui li traduciamo al volo senza toccare i file originali.
  */
 
+import { hk } from "./hash.mjs";
+
 const MODULE_ID = "house-divided-it";
 const UI_PATH = `modules/${MODULE_ID}/lang/ui.it.json`;
 
 let UI = null;
-let TEMPLATES = [];
 let REGEX = [];
 
 const norm = s => s.replace(/\s+/g, " ").trim();
-const escapeRx = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 async function loadUI() {
   if ( UI ) return UI;
   const response = await fetch(UI_PATH);
   UI = await response.json();
-  TEMPLATES = UI.templates.map(([en, it]) => {
-    const rx = new RegExp(`^${escapeRx(norm(en)).replace("\\{name\\}", "(.+?)")}$`, "s");
-    return [rx, it];
-  });
   REGEX = UI.regex.map(([rx, it]) => [new RegExp(rx, "s"), it]);
   return UI;
+}
+
+/** Nomi candidati per ricostruire i modelli "{name} nota...": attori e token presenti nella scena e nel mondo. */
+function candidateNames() {
+  const names = new Set();
+  for ( const t of canvas?.tokens?.placeables ?? [] ) {
+    if ( t.actor?.name ) names.add(t.actor.name);
+    if ( t.document?.name ) names.add(t.document.name);
+  }
+  for ( const a of game.actors ?? [] ) names.add(a.name);
+  return [...names].filter(Boolean).sort((a, b) => b.length - a.length);
 }
 
 /** Traduce una stringa semplice: corrispondenza esatta, poi espressioni regolari. */
@@ -31,7 +38,7 @@ export function translateText(value) {
   if ( !UI || (typeof value !== "string") ) return value;
   const key = norm(value);
   if ( !key ) return value;
-  const it = UI.text[key];
+  const it = UI.text[hk(key)];
   if ( it ) return value.replace(value.trim(), it);
   for ( const [rx, rep] of REGEX ) {
     const m = key.match(rx);
@@ -49,9 +56,13 @@ export function translateText(value) {
 export function translateTemplateHtml(html) {
   if ( !UI || (typeof html !== "string") ) return html;
   const key = norm(html);
-  for ( const [rx, it] of TEMPLATES ) {
-    const m = key.match(rx);
-    if ( m ) return it.replace("{name}", m[1] ?? "");
+  if ( !key ) return html;
+  const direct = UI.templates[hk(key)];
+  if ( direct ) return direct;
+  for ( const name of candidateNames() ) {
+    if ( !key.includes(name) ) continue;
+    const it = UI.templates[hk(key.replace(name, "{name}"))];
+    if ( it ) return it.replace("{name}", name);
   }
   return html;
 }
@@ -138,7 +149,7 @@ Hooks.on("renderAdventureImporterV2", (app, element) => {
 
 Hooks.on("renderDialogV2", (app, element) => {
   const title = app.options?.window?.title;
-  const known = title && UI?.text[norm(title)];
+  const known = title && UI?.text[hk(norm(title))];
   const content = element.querySelector(".dialog-content")?.innerHTML ?? "";
   if ( known || (translateTemplateHtml(content) !== content) ) translateDom(element);
 });

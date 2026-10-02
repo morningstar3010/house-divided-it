@@ -4,6 +4,8 @@
  * Non modifica il compendio originale e non cambia nessun ID: sostituisce solo i campi di testo.
  */
 
+import { hk } from "./hash.mjs";
+
 const MODULE_ID = "house-divided-it";
 const ADVENTURE_PACK = "house-divided.house-divided";
 const DICT_PATH = `modules/${MODULE_ID}/lang/house-divided.it.json`;
@@ -88,7 +90,7 @@ function preserveAnchors(original, translated) {
 }
 
 function translateString(path, value) {
-  const it = DICT[value];
+  const it = DICT[hk(value)];
   if ( typeof it !== "string" || !it.length ) return value;
   if ( NAME_PATH.test(normPath(path)) && PROTECTED_NAMES.test(value) ) return value;
   if ( HTML_PATH.test(path) ) return preserveAnchors(value, it);
@@ -160,7 +162,7 @@ Hooks.on("renderAdventureImporterV2", async (app) => {
   const changes = {};
   for ( const f of ["caption", "description"] ) {
     const v = adventure._source[f];
-    if ( typeof v === "string" && DICT[v] ) changes[f] = DICT[v];
+    if ( typeof v === "string" && DICT[hk(v)] ) changes[f] = DICT[hk(v)];
   }
   adventure._hdItTranslated = true;
   if ( foundry.utils.isEmpty(changes) ) return;
