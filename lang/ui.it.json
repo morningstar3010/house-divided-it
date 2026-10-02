@@ -1,215 +1,113 @@
 {
  "text": {
-  "Activate Initial Scene": "Attiva la scena iniziale",
-  "Display Getting Started Journal": "Mostra il diario Per Iniziare",
-  "Play Title Theme Music": "Riproduci il tema musicale",
-  "Customize World Details": "Personalizza i dettagli del mondo",
-  "Preserve World State": "Preserva lo stato del mondo",
-  "Importing this V14 levels-enabled Adventure over an older version requires a full re-import with the 'preserve world state' option enabled. Player characters keep their positions; NPCs reset to their defaults, and dead NPCs stay dead.": "Importare questa avventura V14 con i livelli sopra una versione precedente richiede una reimportazione completa con l'opzione «Preserva lo stato del mondo» attiva. I personaggi giocanti mantengono la loro posizione; i PNG tornano ai valori iniziali e i PNG morti restano morti.",
-  "Resolve any active combat before re-importing, or existing encounters will be deleted. To finish a running combat instead, revert to the previous version and restore your backup of this World.": "Risolvi ogni combattimento in corso prima di reimportare, altrimenti gli incontri esistenti verranno eliminati. Se invece vuoi finire un combattimento in corso, torna alla versione precedente e ripristina il backup di questo mondo.",
-  "House Divided Approval Tracker": "Registro dell'Approvazione",
-  "The Ruined Manor": "Il Maniero in Rovina",
-  "The Shadeward Manor": "Il Maniero Shadeward",
-  "The Feyward Manor": "Il Maniero Feyward",
-  "The Sprites": "Gli Spiritelli",
-  "Despised": "Disprezzato",
-  "Scorned": "Detestato",
-  "Unfriendly": "Ostile",
-  "Neutral": "Neutrale",
-  "Friendly": "Amichevole",
-  "Loyal": "Leale",
-  "Devoted": "Devoto",
-  "Planar Transition": "Transizione Planare",
-  "Destination": "Destinazione",
-  "Activate Destination": "Attiva la destinazione",
-  "Teleport": "Teletrasporta",
-  "Material Plane": "Piano Materiale",
-  "Shadeward Plane": "Piano Shadeward",
-  "Feyward Plane": "Piano Feyward",
-  "Planar Sanctum": "Santuario Planare",
-  "Same location in the Material Plane": "Stessa posizione nel Piano Materiale",
-  "Same location in the Shadeward Plane": "Stessa posizione nel Piano Shadeward",
-  "Same location in the Feyward Plane": "Stessa posizione nel Piano Feyward",
-  "Library Balcony": "Balconata della Biblioteca",
-  "The Great Tree": "Il Grande Albero",
-  "The Gallery": "La Galleria",
-  "The Autumnal Gate": "Il Cancello Autunnale",
-  "Library Gangways": "Passerelle della Biblioteca",
-  "Foyer Balcony": "Balconata dell'Atrio",
-  "The Midnight Gate": "Il Cancello di Mezzanotte",
-  "The Fractured Atrium": "L'Atrio Frantumato",
-  "Passive Perception Check Succeeded": "Prova di Percezione Passiva Riuscita",
-  "Passive Perception Check Succeeded!": "Percezione Passiva Riuscita!",
-  "Show again": "Mostra di nuovo",
-  "Do not show again": "Non mostrare più",
-  "S36a Optional Teleporter": "Teletrasporto Opzionale S36a",
-  "F36b Optional Teleporter": "Teletrasporto Opzionale F36b",
-  "Fog (House Divided)": "Nebbia (House Divided)",
-  "You must select at least one token.": "Devi selezionare almeno un token.",
-  "You must select a token.": "Devi selezionare un token.",
-  "This token does not support shapeshifting.": "Questo token non supporta il cambio di forma.",
-  "You must target a single token.": "Devi prendere di mira un solo token.",
-  "Target has no associated actor.": "Il bersaglio non ha un attore associato.",
-  "Target is not the right size (Small or Medium only).": "Il bersaglio non ha la taglia giusta (solo Piccola o Media).",
-  "Target is too high of level (Max: 10).": "Il bersaglio è di livello troppo alto (massimo: 10).",
-  "The Tokens must be all in the same Scene": "I token devono trovarsi tutti nella stessa scena",
-  "This macro may only be used on the Ruined Manor First Floor scene.": "Questa macro si può usare solo nella scena Primo Piano del Maniero in Rovina.",
-  "This macro only works in the Ruined First Floor scene.": "Questa macro funziona solo nella scena Primo Piano del Maniero in Rovina.",
-  "Not on Ruined Manor Second Floor scene.": "Non sei nella scena Secondo Piano del Maniero in Rovina.",
-  "Not on the Ruined Manor scene.": "Non sei nella scena del Maniero in Rovina.",
-  "Only a Gamemaster may apply approval changes.": "Solo il Game Master può applicare le variazioni di Approvazione.",
-  "You do not have permission to view the approval tracker.": "Non hai il permesso di vedere il registro dell'Approvazione.",
-  "You must be on the Feyward Manor Grounds scene.": "Devi essere nella scena dei Giardini del Maniero Feyward.",
-  "You must be on the Feyward Manor Second Floor scene.": "Devi essere nella scena Secondo Piano del Maniero Feyward.",
-  "You must be on the Ruined Manor Second Floor scene.": "Devi essere nella scena Secondo Piano del Maniero in Rovina.",
-  "You must be on the Shadeward Manor Grounds scene.": "Devi essere nella scena dei Giardini del Maniero Shadeward.",
-  "You must be on the Shadeward Manor Second Floor scene.": "Devi essere nella scena Secondo Piano del Maniero Shadeward.",
-  "You must select Elscieth or Sylvaria.": "Devi selezionare Elscieth o Sylvaria.",
-  "You must select a Ravenous Host token.": "Devi selezionare un token dell'Orda Famelica.",
-  "You must select a Shard Reflection.": "Devi selezionare un Riflesso dello Shard Stalker.",
-  "You must select a Shard Stalker token.": "Devi selezionare un token dello Shard Stalker.",
-  "You must select an Ochre Jelly token.": "Devi selezionare un token di Ochre Jelly.",
-  "Hall Balcony was reset.": "La balconata del corridoio è stata ripristinata.",
-  "East Balcony was reset.": "La balconata est è stata ripristinata."
+  "15eadf030232d2-16": "Attiva la scena iniziale",
+  "1adcf623734670-1f": "Mostra il diario Per Iniziare",
+  "4fd38dde26943-16": "Riproduci il tema musicale",
+  "130e36e1056e8e-17": "Personalizza i dettagli del mondo",
+  "16bbe001c088f9-14": "Preserva lo stato del mondo",
+  "bb3aaf2dc97bf-ea": "Importare questa avventura V14 con i livelli sopra una versione precedente richiede una reimportazione completa con l'opzione «Preserva lo stato del mondo» attiva. I personaggi giocanti mantengono la loro posizione; i PNG tornano ai valori iniziali e i PNG morti restano morti.",
+  "184c333b2730c2-c0": "Risolvi ogni combattimento in corso prima di reimportare, altrimenti gli incontri esistenti verranno eliminati. Se invece vuoi finire un combattimento in corso, torna alla versione precedente e ripristina il backup di questo mondo.",
+  "199791b0e4066c-1e": "Registro dell'Approvazione",
+  "4716a1e72c23a-10": "Il Maniero in Rovina",
+  "5d94795e308bc-13": "Il Maniero Shadeward",
+  "1bf82cd6a49b88-11": "Il Maniero Feyward",
+  "16c8025dea4ac0-b": "Gli Spiritelli",
+  "7e5f10bb865ca-8": "Disprezzato",
+  "8398e2adeba80-7": "Detestato",
+  "7df4c27087ddb-a": "Ostile",
+  "5c72a19b2e269-7": "Neutrale",
+  "2159e83f63ec2-8": "Amichevole",
+  "56137b5457b7c-5": "Leale",
+  "e0dae52e7637b-7": "Devoto",
+  "11a0362e111503-11": "Transizione Planare",
+  "354efc998fbe0-b": "Destinazione",
+  "1e09204109c4c1-14": "Attiva la destinazione",
+  "12e7bb42d7aad6-8": "Teletrasporta",
+  "4517cd9a8cb2-e": "Piano Materiale",
+  "18dc9cbea47a73-f": "Piano Shadeward",
+  "1923da962e33a5-d": "Piano Feyward",
+  "13b9e440ef294-e": "Santuario Planare",
+  "1111053faeb4c-23": "Stessa posizione nel Piano Materiale",
+  "5909967785a72-24": "Stessa posizione nel Piano Shadeward",
+  "7603a3502101c-22": "Stessa posizione nel Piano Feyward",
+  "604d25782fe13-f": "Balconata della Biblioteca",
+  "131e0d61f98471-e": "Il Grande Albero",
+  "123e2b1700c2fb-b": "La Galleria",
+  "16e1046c77671c-11": "Il Cancello Autunnale",
+  "1531aac1d037cb-10": "Passerelle della Biblioteca",
+  "14b27edfa462d4-d": "Balconata dell'Atrio",
+  "1c64f3fc1b4c22-11": "Il Cancello di Mezzanotte",
+  "82825cc7d4d42-14": "L'Atrio Frantumato",
+  "1412276a58bd99-22": "Prova di Percezione Passiva Riuscita",
+  "bd89aef0a0c9f-23": "Percezione Passiva Riuscita!",
+  "f05ec8ab43d45-a": "Mostra di nuovo",
+  "14aaf7a78375d-11": "Non mostrare più",
+  "8dcc85fd83cec-18": "Teletrasporto Opzionale S36a",
+  "14bc733566e22d-18": "Teletrasporto Opzionale F36b",
+  "5d2bb1852bc69-13": "Nebbia (House Divided)",
+  "15a84497f6cbd-23": "Devi selezionare almeno un token.",
+  "10a64cc80a7627-18": "Devi selezionare un token.",
+  "e1e6f6ff21df8-2a": "Questo token non supporta il cambio di forma.",
+  "2f5d0c32fd0d8-1f": "Devi prendere di mira un solo token.",
+  "1c711c44f32047-1f": "Il bersaglio non ha un attore associato.",
+  "cb1ff917f56a5-34": "Il bersaglio non ha la taglia giusta (solo Piccola o Media).",
+  "8ba463f3ac42a-26": "Il bersaglio è di livello troppo alto (massimo: 10).",
+  "18227f7f8a4b8c-28": "I token devono trovarsi tutti nella stessa scena",
+  "1ce8d9464a04bf-42": "Questa macro si può usare solo nella scena Primo Piano del Maniero in Rovina.",
+  "14b19d0aceab64-36": "Questa macro funziona solo nella scena Primo Piano del Maniero in Rovina.",
+  "1b432b52a8e90f-27": "Non sei nella scena Secondo Piano del Maniero in Rovina.",
+  "16dd7b496402bc-1e": "Non sei nella scena del Maniero in Rovina.",
+  "6dc55e1adfba0-2d": "Solo il Game Master può applicare le variazioni di Approvazione.",
+  "11cc27364a88e7-38": "Non hai il permesso di vedere il registro dell'Approvazione.",
+  "16a31a4aa972c5-2f": "Devi essere nella scena dei Giardini del Maniero Feyward.",
+  "128394542c4048-34": "Devi essere nella scena Secondo Piano del Maniero Feyward.",
+  "1aaebc0cfc175c-33": "Devi essere nella scena Secondo Piano del Maniero in Rovina.",
+  "996ae70a24e3-31": "Devi essere nella scena dei Giardini del Maniero Shadeward.",
+  "177faf892f5f9e-36": "Devi essere nella scena Secondo Piano del Maniero Shadeward.",
+  "bf716363780a1-25": "Devi selezionare Elscieth o Sylvaria.",
+  "3f6b84867e59b-26": "Devi selezionare un token dell'Orda Famelica.",
+  "84330e42f9558-23": "Devi selezionare un Riflesso dello Shard Stalker.",
+  "20e339270c92c-26": "Devi selezionare un token dello Shard Stalker.",
+  "1d3eb1d938a63b-25": "Devi selezionare un token di Ochre Jelly.",
+  "132a1a910b8f3e-17": "La balconata del corridoio è stata ripristinata.",
+  "e1e551b2f63f8-17": "La balconata est è stata ripristinata."
  },
- "templates": [
-  [
-   "<p>When the Shard Stalker uses Shatter Form to make a reflection of itself it can reflect the form of another Small or Medium humanoid it can see with the following traits:</p><ul><li><p>It has all of the ability scores, proficiencies, and other statistics of its target. It also has all of the target creature's equipment and can use it with the same proficiency as the target, though it does not have access to class features, spells, or magical properties of any carried items.</p></li><li><p>Consumable items like food, potions, and scrolls for spells up to 5th level function as expected but can only be used by the Shard Stalker.  Anything taken off of the facsimile instantly shatters into dust as though made of glass or plaster.</p></li></ul><p>The Shard Stalker sounds indistinguishable from the creature they are mirroring, though they can only effectively mimic creatures they've spent at least a full day observing.</p><p>An arcane facsimile can revert itself it its natural form at any time as a bonus action. When an arcane facsimile dies it returns to its true form.</p>",
-   "<p>Quando lo Shard Stalker usa Frantumare Forma per creare un riflesso di sé, può riflettere la forma di un altro umanoide Piccolo o Medio che è in grado di vedere, con i seguenti tratti:</p><ul><li><p>Possiede tutti i punteggi di caratteristica, le competenze e le altre statistiche del bersaglio. Possiede anche tutto l'equipaggiamento della creatura bersaglio e può usarlo con la stessa competenza, ma non ha accesso ai privilegi di classe, agli incantesimi o alle proprietà magiche degli oggetti trasportati.</p></li><li><p>Gli oggetti consumabili come cibo, pozioni e pergamene di incantesimi fino al 5° livello funzionano normalmente, ma possono essere usati solo dallo Shard Stalker.  Qualsiasi cosa venga tolta al facsimile si sbriciola all'istante in polvere, come se fosse di vetro o di gesso.</p></li></ul><p>La voce dello Shard Stalker è indistinguibile da quella della creatura che rispecchia, ma può imitare efficacemente solo le creature che ha osservato per almeno un giorno intero.</p><p>Un facsimile arcano può tornare alla sua forma naturale in qualsiasi momento come azione bonus. Quando un facsimile arcano muore, torna alla sua vera forma.</p>"
-  ],
-  [
-   "<p>An arcane facsimile can revert itself it its natural form at any time as a bonus action. When an arcane facsimile dies it returns to its true form.</p><p>@UUID[Macro.LA1NMxqwES2Reb94]{Arcane Facsimile - Revert Form}</p>",
-   "<p>Un facsimile arcano può tornare alla sua forma naturale in qualsiasi momento come azione bonus. Quando un facsimile arcano muore, torna alla sua vera forma.</p><p>@UUID[Macro.LA1NMxqwES2Reb94]{Facsimile Arcano - Ritorno alla Forma}</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices a discreet door in the southern wall.</p>",
-   "<p style=\"user-select: all;\">{name} nota una porta discreta nella parete meridionale.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that the inset bookshelf behind the display case is odd — where the other shelves are continuous, it looks almost as if someone cut the shelf at one point and inserted a new vertical section of shelving. It matches in color and style of the shelves around it, but is sectioned vertically where the other shelves are only sectioned horizontally. Most notable is the fact that it is almost exactly the width of a door.</p>",
-   "<p style=\"user-select: all;\">{name} nota che la libreria a incasso dietro la vetrinetta ha qualcosa di strano: mentre gli altri scaffali sono continui, sembra quasi che qualcuno abbia tagliato lo scaffale in un punto e vi abbia inserito una nuova sezione verticale. Colore e stile sono identici a quelli degli scaffali vicini, ma è suddivisa in verticale mentre gli altri lo sono solo in orizzontale. Ancora più notevole è il fatto che sia larga quasi esattamente quanto una porta.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that the crooked angle of the painting seems to have caught on something at the lower left corner. Upon examination, they find a small knob which appears attached to a sliding piece of metal.</p>",
-   "<p style=\"user-select: all;\">{name} nota che l'inclinazione storta del dipinto sembra dovuta al fatto che si è impigliato in qualcosa nell'angolo in basso a sinistra. Esaminandolo, trova un piccolo pomello che sembra collegato a una piastra di metallo scorrevole.</p>"
-  ],
-  [
-   "<p>An odd spot of decay and weirdly placed furniture draws the eye of {name} to a gap in the wall and a glimpse of something beyond it.</p>",
-   "<p>Una strana chiazza di marciume e alcuni mobili disposti in modo bizzarro attirano lo sguardo di {name} verso una fessura nella parete e uno scorcio di qualcosa al di là.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that a toppled plant stand lays part way through the wall on the east side of this hallway. It isn't embedded into the wall, but rather appears to be laying there as if the wall is not solid.</p>",
-   "<p style=\"user-select: all;\">{name} nota che un portavasi rovesciato attraversa in parte la parete sul lato est di questo corridoio. Non è conficcato nel muro: sembra piuttosto appoggiato lì, come se la parete non fosse solida.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices the seam of a hidden door. A light tug on the candle holder unlatches the door, revealing a sharp fall into darkness and ruin below.</p>",
-   "<p style=\"user-select: all;\">{name} nota la giuntura di una porta nascosta. Basta tirare leggermente il portacandele per sbloccare la porta, che rivela un salto a picco nell'oscurità e nella rovina sottostanti.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices a hidden latch under some warped wood.</p>",
-   "<p style=\"user-select: all;\">{name} nota un chiavistello nascosto sotto del legno deformato.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices an oddity in the wall on the west side of this hallway.</p>",
-   "<p style=\"user-select: all;\">{name} nota qualcosa di strano nella parete sul lato ovest di questo corridoio.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices a faint, but visible seam in the wall beside the painting that hangs here, perhaps a hidden door? The sconce holding the lamp looks suspicious.</p>",
-   "<p style=\"user-select: all;\">{name} nota una giuntura sottile ma visibile nella parete accanto al dipinto appeso qui: forse una porta nascosta? L'applique che regge la lampada ha un'aria sospetta.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that the inset bookshelf is odd — where the other shelves are continuous, it looks almost as if someone cut the shelf at one point and inserted a new vertical section of shelving. It matches the color and style of the shelves around it, but is sectioned vertically where the other shelves are only sectioned horizontally. Most notable is the fact that it is almost exactly the width of a door.</p>",
-   "<p style=\"user-select: all;\">{name} nota che la libreria a incasso ha qualcosa di strano: mentre gli altri scaffali sono continui, sembra quasi che qualcuno abbia tagliato lo scaffale in un punto e vi abbia inserito una nuova sezione verticale. Colore e stile sono identici a quelli degli scaffali vicini, ma è suddivisa in verticale mentre gli altri lo sono solo in orizzontale. Ancora più notevole è il fatto che sia larga quasi esattamente quanto una porta.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices a faint, but visible seam in the western wall just north of the dais, perhaps a hidden door? It wouldn't be the first time a sconce hid a latch for opening part of the wall.</p>",
-   "<p style=\"user-select: all;\">{name} nota una giuntura sottile ma visibile nella parete occidentale, appena a nord della pedana: forse una porta nascosta? Non sarebbe la prima volta che un'applique nasconde il meccanismo per aprire una parte del muro.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices a small wear mark around the corner of the room. Looking more closely they track it to the wall and after a moment spent checking out the area they press on part of the crown molding and a hidden door opens into a small closet.</p>",
-   "<p style=\"user-select: all;\">{name} nota un piccolo segno d'usura nell'angolo della stanza. Guardando meglio, lo segue fino alla parete e, dopo aver esaminato per qualche istante la zona, preme su una parte della cornice del soffitto: una porta nascosta si apre su un piccolo sgabuzzino.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that there's too much empty space between the furniture in the southwest part of the room, and the surface of the wall panel looks as though it has a gap. Pushing firmly against the wall panel causes it to slide open, allowing passage through into the library.</p>",
-   "<p style=\"user-select: all;\">{name} nota che c'è troppo spazio vuoto tra i mobili nella parte sud-ovest della stanza e che la superficie del pannello a muro sembra avere una fessura. Spingendo con decisione il pannello, questo scorre e si apre, permettendo di passare nella biblioteca.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that just north of the sconce lamp on the east side of the hall the light doesn't quite reflect off of the surface of the wall correctly — as if the wall itself stays at the same level of illumination regardless of whether the light flickers.</p>",
-   "<p style=\"user-select: all;\">{name} nota che, appena a nord dell'applique sul lato est del corridoio, la luce non si riflette come dovrebbe sulla superficie della parete, come se il muro restasse illuminato allo stesso modo anche quando la fiamma tremola.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices an accumulation of dust along the wall on the west side, just south of the bathroom door, that seems to have formed a small but straight line, as if a draft has caused it to build up just there against the wall. Close examination reveals there's a gap in the paneling near the floor — a near seamless hidden door.</p>",
-   "<p style=\"user-select: all;\">{name} nota un accumulo di polvere lungo la parete sul lato ovest, appena a sud della porta del bagno, che sembra formare una linea sottile ma diritta, come se una corrente d'aria l'avesse ammassata proprio lì contro il muro. Un esame accurato rivela una fessura nella pannellatura vicino al pavimento: una porta nascosta quasi invisibile.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices a narrow seam between two wall panels, through which a faint draft can be felt. A gentle shove in the right place is sufficient to open the door.</p>",
-   "<p style=\"user-select: all;\">{name} nota una giuntura sottile tra due pannelli della parete, attraverso cui si avverte una leggera corrente d'aria. Basta una spinta delicata nel punto giusto per aprire la porta.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices there's too much space between a hanging painting and the door that leaves the room. A close inspection of the painting's frame indicates a small sliding bolt which unlatches a secret door.</p>",
-   "<p style=\"user-select: all;\">{name} nota che c'è troppo spazio tra un dipinto appeso e la porta che esce dalla stanza. Un esame attento della cornice rivela un piccolo chiavistello scorrevole che sblocca una porta segreta.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that there's something odd about the amount of space between the door and the weapon rack just south of it. A small coat hook just beside the room's main door looks suspicious — and when pushed upward, unlatches a hidden door.</p>",
-   "<p style=\"user-select: all;\">{name} nota qualcosa di strano nello spazio tra la porta e la rastrelliera per armi appena a sud. Un piccolo appendiabiti accanto alla porta principale della stanza ha un'aria sospetta e, spinto verso l'alto, sblocca una porta nascosta.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that there's a gentle draft as they pass the midway point of the hall, coming from what appears to be a solid wall.</p>",
-   "<p style=\"user-select: all;\">{name} nota una leggera corrente d'aria mentre supera la metà del corridoio, proveniente da quella che sembra una parete solida.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that there's a gentle draft near the east end of the hall, coming from what appears to be a solid wall to the north.</p>",
-   "<p style=\"user-select: all;\">{name} nota una leggera corrente d'aria vicino all'estremità est del corridoio, proveniente da quella che sembra una parete solida a nord.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that the westmost shelf has something curious about it. Someone, in years past, appears to have left a yellow colored smudge on the spine of a book with a spine titled \"A Door\". Lifting the book or attempting to pull it from the shelf results in a loud clunk and the shelf opens to reveal a passageway beyond.</p>",
-   "<p style=\"user-select: all;\">{name} nota che lo scaffale più a ovest ha qualcosa di curioso. Qualcuno, anni fa, sembra aver lasciato una macchia giallastra sul dorso di un libro intitolato «Una Porta». Sollevando il libro o cercando di estrarlo dallo scaffale si sente un forte clunk e lo scaffale si apre, rivelando un passaggio.</p>"
-  ],
-  [
-   "<p>While most of the books on the shelves are quite dusty, one title stands out as just slightly less dusty to {name}. Against a shelf on the east wall is a text, fittingly titled: \"The Hidden Door\". Attempting to withdraw the book from the shelf causes a loud clunk and that section of shelf can be pulled outward to pass into the hallway beyond.</p>",
-   "<p>Mentre la maggior parte dei libri sugli scaffali è coperta di polvere, un titolo appare a {name} appena un po' meno impolverato. Su uno scaffale della parete est c'è un volume dal titolo quanto mai appropriato: «La Porta Nascosta». Cercando di estrarlo si sente un forte clunk, e quella sezione di scaffale può essere tirata in fuori per passare nel corridoio retrostante.</p>"
-  ],
-  [
-   "<p>A set of winding roots has twined into a gap between two sets of shelves on both sides. In passing, you might have just assumed that this was a decorative fixture of the shelf, but on inspection {name} notices that there's clearly a gap where a door might be hidden.</p>",
-   "<p>Un intrico di radici si è insinuato in una fessura tra due serie di scaffali, su entrambi i lati. Passando, avreste potuto scambiarlo per una decorazione della libreria, ma esaminandolo {name} nota che c'è chiaramente uno spazio in cui potrebbe celarsi una porta.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that a piece of panel set against the southwest corner of the room is almost exactly the size of a door. Closer inspection reveals a small square stone on the corner column which, when pressed, causes the door to open.</p>",
-   "<p style=\"user-select: all;\">{name} nota che un pannello appoggiato nell'angolo sud-ovest della stanza ha quasi esattamente le dimensioni di una porta. Un esame più attento rivela una piccola pietra quadrata sulla colonna d'angolo che, se premuta, fa aprire la porta.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that the inset bookshelf is odd — where the other shelves are continuous, it looks almost as if someone cut the shelf at one point and inserted a new vertical section of shelving. It matches it color and style of the shelves around it, but is sectioned vertically where the other shelves are only sectioned horizontally. Most notable is the fact that it is almost exactly the width of a door.</p>",
-   "<p style=\"user-select: all;\">{name} nota che la libreria a incasso ha qualcosa di strano: mentre gli altri scaffali sono continui, sembra quasi che qualcuno abbia tagliato lo scaffale in un punto e vi abbia inserito una nuova sezione verticale. Colore e stile sono identici a quelli degli scaffali vicini, ma è suddivisa in verticale mentre gli altri lo sono solo in orizzontale. Ancora più notevole è il fatto che sia larga quasi esattamente quanto una porta.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that a stone panel on the wall is worn, as if from many years of someone pressing their hand against it. Repeating the gesture causes a wall panel to slide open.</p>",
-   "<p style=\"user-select: all;\">{name} nota che un pannello di pietra della parete è consumato, come se per molti anni qualcuno vi avesse premuto contro la mano. Ripetendo il gesto, un pannello del muro scorre e si apre.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that the peeling wallpaper all ends in a sudden straight line before continuing — the sure signs of a hidden passage. Seeking a hidden latch, they find the release which opens the door into a thin, dusty hallway.</p>",
-   "<p style=\"user-select: all;\">{name} nota che la carta da parati scrostata termina ovunque con un'improvvisa linea diritta prima di proseguire: il segno inequivocabile di un passaggio nascosto. Cercando un meccanismo nascosto, trova la leva che apre la porta su un corridoio stretto e polveroso.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices a conspicuous book on the east wall looks slightly out of place, and turns out to be a bit of wood with glued-on panels to make it look like a book. Pulling on it unlatches a secret passage to a hallway with a worn red carpet.</p>",
-   "<p style=\"user-select: all;\">{name} nota che un libro vistoso sulla parete est sembra leggermente fuori posto: si rivela essere un pezzo di legno con pannelli incollati per farlo sembrare un libro. Tirandolo si sblocca un passaggio segreto verso un corridoio con un consunto tappeto rosso.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices a central shelf against the west wall houses a book that suspiciously hasn't been pried loose from the shelves and used for other purposes. Pulling the book reveals it to have been made of wood, permanently held to the shelf by a latch that reveals a hidden door.</p>",
-   "<p style=\"user-select: all;\">{name} nota che uno scaffale centrale contro la parete ovest ospita un libro che, stranamente, nessuno ha strappato dagli scaffali per usarlo in altro modo. Tirandolo si scopre che è di legno, fissato per sempre allo scaffale da un meccanismo che rivela una porta nascosta.</p>"
-  ],
-  [
-   "<p style=\"user-select: all;\">{name} notices that just beyond the large flora that clutters the south west, past the pile of treasure, a vertical line protrudes just slightly from the wall, the sliding panel of a hidden door.</p>",
-   "<p style=\"user-select: all;\">{name} nota che, appena oltre la vegetazione rigogliosa che ingombra l'angolo sud-ovest, dopo il mucchio di tesori, una linea verticale sporge appena dalla parete: il pannello scorrevole di una porta nascosta.</p>"
-  ],
-  [
-   "\n      <p>The fountain located in S36a serves as a portal between the Feyward and Shadeward Manors, players can use it if they have completed the quest Home Sweet Home.</p>\n      <p>Would you like to enable this teleporter?</p>\n    ",
-   "<p>La fontana situata in S36a funge da portale tra il Maniero Feyward e il Maniero Shadeward; i giocatori possono usarla se hanno completato la missione Casa Dolce Casa.</p>\n      <p>Vuoi attivare questo teletrasporto?</p>"
-  ],
-  [
-   "\n      <p>The fountain located in F36b serves as a portal between the Feyward and Shadeward Manors, players can use it if they have completed the quest Home Sweet Home.</p>\n      <p>Would you like to enable this teleporter?</p>\n    ",
-   "<p>La fontana situata in F36b funge da portale tra il Maniero Feyward e il Maniero Shadeward; i giocatori possono usarla se hanno completato la missione Casa Dolce Casa.</p>\n      <p>Vuoi attivare questo teletrasporto?</p>"
-  ]
- ],
+ "templates": {
+  "1f88067c257869-43d": "<p>Quando lo Shard Stalker usa Frantumare Forma per creare un riflesso di sé, può riflettere la forma di un altro umanoide Piccolo o Medio che è in grado di vedere, con i seguenti tratti:</p><ul><li><p>Possiede tutti i punteggi di caratteristica, le competenze e le altre statistiche del bersaglio. Possiede anche tutto l'equipaggiamento della creatura bersaglio e può usarlo con la stessa competenza, ma non ha accesso ai privilegi di classe, agli incantesimi o alle proprietà magiche degli oggetti trasportati.</p></li><li><p>Gli oggetti consumabili come cibo, pozioni e pergamene di incantesimi fino al 5° livello funzionano normalmente, ma possono essere usati solo dallo Shard Stalker.  Qualsiasi cosa venga tolta al facsimile si sbriciola all'istante in polvere, come se fosse di vetro o di gesso.</p></li></ul><p>La voce dello Shard Stalker è indistinguibile da quella della creatura che rispecchia, ma può imitare efficacemente solo le creature che ha osservato per almeno un giorno intero.</p><p>Un facsimile arcano può tornare alla sua forma naturale in qualsiasi momento come azione bonus. Quando un facsimile arcano muore, torna alla sua vera forma.</p>",
+  "cd6b55070cd88-de": "<p>Un facsimile arcano può tornare alla sua forma naturale in qualsiasi momento come azione bonus. Quando un facsimile arcano muore, torna alla sua vera forma.</p><p>@UUID[Macro.LA1NMxqwES2Reb94]{Facsimile Arcano - Ritorno alla Forma}</p>",
+  "7b8dbdc121264-55": "<p style=\"user-select: all;\">{name} nota una porta discreta nella parete meridionale.</p>",
+  "108b8054d9afb8-1d0": "<p style=\"user-select: all;\">{name} nota che la libreria a incasso dietro la vetrinetta ha qualcosa di strano: mentre gli altri scaffali sono continui, sembra quasi che qualcuno abbia tagliato lo scaffale in un punto e vi abbia inserito una nuova sezione verticale. Colore e stile sono identici a quelli degli scaffali vicini, ma è suddivisa in verticale mentre gli altri lo sono solo in orizzontale. Ancora più notevole è il fatto che sia larga quasi esattamente quanto una porta.</p>",
+  "149ed5cea16fb1-ef": "<p style=\"user-select: all;\">{name} nota che l'inclinazione storta del dipinto sembra dovuta al fatto che si è impigliato in qualcosa nell'angolo in basso a sinistra. Esaminandolo, trova un piccolo pomello che sembra collegato a una piastra di metallo scorrevole.</p>",
+  "14a57a0660672f-8b": "<p>Una strana chiazza di marciume e alcuni mobili disposti in modo bizzarro attirano lo sguardo di {name} verso una fessura nella parete e uno scorcio di qualcosa al di là.</p>",
+  "105d1f7fdce4c5-ef": "<p style=\"user-select: all;\">{name} nota che un portavasi rovesciato attraversa in parte la parete sul lato est di questo corridoio. Non è conficcato nel muro: sembra piuttosto appoggiato lì, come se la parete non fosse solida.</p>",
+  "6d81d979cd3fd-b4": "<p style=\"user-select: all;\">{name} nota la giuntura di una porta nascosta. Basta tirare leggermente il portacandele per sbloccare la porta, che rivela un salto a picco nell'oscurità e nella rovina sottostanti.</p>",
+  "17d8d3bc118b7e-56": "<p style=\"user-select: all;\">{name} nota un chiavistello nascosto sotto del legno deformato.</p>",
+  "97318b99bbe4c-67": "<p style=\"user-select: all;\">{name} nota qualcosa di strano nella parete sul lato ovest di questo corridoio.</p>",
+  "cdef4e16e0fa2-bf": "<p style=\"user-select: all;\">{name} nota una giuntura sottile ma visibile nella parete accanto al dipinto appeso qui: forse una porta nascosta? L'applique che regge la lampada ha un'aria sospetta.</p>",
+  "1247810dfaf299-1b9": "<p style=\"user-select: all;\">{name} nota che la libreria a incasso ha qualcosa di strano: mentre gli altri scaffali sono continui, sembra quasi che qualcuno abbia tagliato lo scaffale in un punto e vi abbia inserito una nuova sezione verticale. Colore e stile sono identici a quelli degli scaffali vicini, ma è suddivisa in verticale mentre gli altri lo sono solo in orizzontale. Ancora più notevole è il fatto che sia larga quasi esattamente quanto una porta.</p>",
+  "bb13231f8239c-dd": "<p style=\"user-select: all;\">{name} nota una giuntura sottile ma visibile nella parete occidentale, appena a nord della pedana: forse una porta nascosta? Non sarebbe la prima volta che un'applique nasconde il meccanismo per aprire una parte del muro.</p>",
+  "1a40e3fe512c0f-113": "<p style=\"user-select: all;\">{name} nota un piccolo segno d'usura nell'angolo della stanza. Guardando meglio, lo segue fino alla parete e, dopo aver esaminato per qualche istante la zona, preme su una parte della cornice del soffitto: una porta nascosta si apre su un piccolo sgabuzzino.</p>",
+  "1aa784b0ddc219-134": "<p style=\"user-select: all;\">{name} nota che c'è troppo spazio vuoto tra i mobili nella parte sud-ovest della stanza e che la superficie del pannello a muro sembra avere una fessura. Spingendo con decisione il pannello, questo scorre e si apre, permettendo di passare nella biblioteca.</p>",
+  "c91e3936b91b4-122": "<p style=\"user-select: all;\">{name} nota che, appena a nord dell'applique sul lato est del corridoio, la luce non si riflette come dovrebbe sulla superficie della parete, come se il muro restasse illuminato allo stesso modo anche quando la fiamma tremola.</p>",
+  "49fc33b4cd7c7-169": "<p style=\"user-select: all;\">{name} nota un accumulo di polvere lungo la parete sul lato ovest, appena a sud della porta del bagno, che sembra formare una linea sottile ma diritta, come se una corrente d'aria l'avesse ammassata proprio lì contro il muro. Un esame accurato rivela una fessura nella pannellatura vicino al pavimento: una porta nascosta quasi invisibile.</p>",
+  "1e452c0255b21e-c1": "<p style=\"user-select: all;\">{name} nota una giuntura sottile tra due pannelli della parete, attraverso cui si avverte una leggera corrente d'aria. Basta una spinta delicata nel punto giusto per aprire la porta.</p>",
+  "598a88d20e62d-ed": "<p style=\"user-select: all;\">{name} nota che c'è troppo spazio tra un dipinto appeso e la porta che esce dalla stanza. Un esame attento della cornice rivela un piccolo chiavistello scorrevole che sblocca una porta segreta.</p>",
+  "8e9ed66c7e999-112": "<p style=\"user-select: all;\">{name} nota qualcosa di strano nello spazio tra la porta e la rastrelliera per armi appena a sud. Un piccolo appendiabiti accanto alla porta principale della stanza ha un'aria sospetta e, spinto verso l'alto, sblocca una porta nascosta.</p>",
+  "297c31d5c59db-a3": "<p style=\"user-select: all;\">{name} nota una leggera corrente d'aria mentre supera la metà del corridoio, proveniente da quella che sembra una parete solida.</p>",
+  "18812ea68ae6dd-a4": "<p style=\"user-select: all;\">{name} nota una leggera corrente d'aria vicino all'estremità est del corridoio, proveniente da quella che sembra una parete solida a nord.</p>",
+  "1ae2a1944cf473-165": "<p style=\"user-select: all;\">{name} nota che lo scaffale più a ovest ha qualcosa di curioso. Qualcuno, anni fa, sembra aver lasciato una macchia giallastra sul dorso di un libro intitolato «Una Porta». Sollevando il libro o cercando di estrarlo dallo scaffale si sente un forte clunk e lo scaffale si apre, rivelando un passaggio.</p>",
+  "162733221406f0-15f": "<p>Mentre la maggior parte dei libri sugli scaffali è coperta di polvere, un titolo appare a {name} appena un po' meno impolverato. Su uno scaffale della parete est c'è un volume dal titolo quanto mai appropriato: «La Porta Nascosta». Cercando di estrarlo si sente un forte clunk, e quella sezione di scaffale può essere tirata in fuori per passare nel corridoio retrostante.</p>",
+  "14f0cc11b7c44e-111": "<p>Un intrico di radici si è insinuato in una fessura tra due serie di scaffali, su entrambi i lati. Passando, avreste potuto scambiarlo per una decorazione della libreria, ma esaminandolo {name} nota che c'è chiaramente uno spazio in cui potrebbe celarsi una porta.</p>",
+  "990c665a1b52c-10a": "<p style=\"user-select: all;\">{name} nota che un pannello appoggiato nell'angolo sud-ovest della stanza ha quasi esattamente le dimensioni di una porta. Un esame più attento rivela una piccola pietra quadrata sulla colonna d'angolo che, se premuta, fa aprire la porta.</p>",
+  "1176905d3a28e2-1b8": "<p style=\"user-select: all;\">{name} nota che la libreria a incasso ha qualcosa di strano: mentre gli altri scaffali sono continui, sembra quasi che qualcuno abbia tagliato lo scaffale in un punto e vi abbia inserito una nuova sezione verticale. Colore e stile sono identici a quelli degli scaffali vicini, ma è suddivisa in verticale mentre gli altri lo sono solo in orizzontale. Ancora più notevole è il fatto che sia larga quasi esattamente quanto una porta.</p>",
+  "518b90e6ff79a-d1": "<p style=\"user-select: all;\">{name} nota che un pannello di pietra della parete è consumato, come se per molti anni qualcuno vi avesse premuto contro la mano. Ripetendo il gesto, un pannello del muro scorre e si apre.</p>",
+  "794f1d8e82374-104": "<p style=\"user-select: all;\">{name} nota che la carta da parati scrostata termina ovunque con un'improvvisa linea diritta prima di proseguire: il segno inequivocabile di un passaggio nascosto. Cercando un meccanismo nascosto, trova la leva che apre la porta su un corridoio stretto e polveroso.</p>",
+  "33dd308ebf830-112": "<p style=\"user-select: all;\">{name} nota che un libro vistoso sulla parete est sembra leggermente fuori posto: si rivela essere un pezzo di legno con pannelli incollati per farlo sembrare un libro. Tirandolo si sblocca un passaggio segreto verso un corridoio con un consunto tappeto rosso.</p>",
+  "b3233b376f2ea-137": "<p style=\"user-select: all;\">{name} nota che uno scaffale centrale contro la parete ovest ospita un libro che, stranamente, nessuno ha strappato dagli scaffali per usarlo in altro modo. Tirandolo si scopre che è di legno, fissato per sempre allo scaffale da un meccanismo che rivela una porta nascosta.</p>",
+  "1ec1e336602b37-e4": "<p style=\"user-select: all;\">{name} nota che, appena oltre la vegetazione rigogliosa che ingombra l'angolo sud-ovest, dopo il mucchio di tesori, una linea verticale sporge appena dalla parete: il pannello scorrevole di una porta nascosta.</p>",
+  "becdd0d95e728-d6": "<p>La fontana situata in S36a funge da portale tra il Maniero Feyward e il Maniero Shadeward; i giocatori possono usarla se hanno completato la missione Casa Dolce Casa.</p>\n      <p>Vuoi attivare questo teletrasporto?</p>",
+  "fa0340301d5e8-d6": "<p>La fontana situata in F36b funge da portale tra il Maniero Feyward e il Maniero Shadeward; i giocatori possono usarla se hanno completato la missione Casa Dolce Casa.</p>\n      <p>Vuoi attivare questo teletrasporto?</p>"
+ },
  "regex": [
   [
    "^Approval Change: (.*)$",
