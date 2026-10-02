@@ -1,0 +1,39 @@
+{
+  "id": "house-divided-it",
+  "title": "A House Divided - Traduzione italiana",
+  "description": "<p>Traduzione italiana dell'avventura <em>A House Divided</em>. Non contiene l'avventura: traduce i testi al momento dell'importazione mantenendo identici tutti gli ID, quindi collegamenti, scene e automazioni del modulo originale continuano a funzionare. Richiede il modulo originale acquistato.</p>",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "MorningStar"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "house-divided",
+        "type": "module",
+        "compatibility": {
+          "minimum": "5.0.2"
+        }
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  },
+  "manifest": "",
+  "url": "https://github.com/morningstar3010/house-divided-it/",
+  "download": "",
+  "esmodules": [
+    "scripts/house-divided-it.mjs",
+    "scripts/ui.mjs"
+  ]
+}
