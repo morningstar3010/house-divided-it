@@ -1,0 +1,1 @@
+Non contiene l'avventura: traduce i testi al momento dell'importazione mantenendo identici tutti gli ID, quindi collegamenti, scene e automazioni del modulo originale continuano a funzionare. Richiede il modulo originale acquistato.
